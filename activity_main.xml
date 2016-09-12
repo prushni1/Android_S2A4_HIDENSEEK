@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:layout_margin="12dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#000000">
+
+
+            <ImageView
+                android:id="@+id/img_launcher"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center"
+                android:padding="1dp"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/btn_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+
+                android:layout_below="@+id/img"
+                android:layout_centerHorizontal="true"
+
+                android:padding="10dp"
+                android:text="Hide"
+                android:textColor="#ffffff"
+                android:typeface="sans"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:visibility="gone"
+                android:padding="10dp"
+                android:text="Show"
+                android:textColor="#ffffff"
+                android:typeface="sans"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
